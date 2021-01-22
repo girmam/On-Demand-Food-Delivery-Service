@@ -1,0 +1,75 @@
+nav{
+    background-color: #563d7c;
+    color: #fff;
+    padding: 30px 60px;
+    display:  flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding:  5px 8px;
+}
+
+nav li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
+/* body {
+    background-image: url('../public/background1.jpeg');
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-size: cover;
+  } */
+
+
+  body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("https://i.pinimg.com/originals/6e/58/1f/6e581fb70982e576c488457628c72604.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg2 {
+    /* The image used */
+    background-image: url("https://cdn.abcotvs.com/dip/images/6028956_031920-kfsn-food-delivery-img.jpg?w=800&r=16%3A9");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg3 {
+    /* The image used */
+    background-image: url("https://townsquare.media/site/516/files/2020/03/Food-Delivery-Grocery-Delivery-GettyImages-1059113290.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bg4 {
+    /* The image used */
+    background-image: url("https://dosaking.net/wp-content/uploads/2014/05/dosa-king-bangkok-banner.jpg");
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bottom-container {
+    background-color:  #563d7c;
+    padding: 50px 0 20px;
+  }
